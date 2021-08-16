@@ -1,0 +1,99 @@
+{
+
+	"add a shebang": { 
+    	        "scope": "sh",
+		        "prefix": "#!", 
+		  	    "body": [ 
+		  	    "#!/bin/bash" 
+		  	    ], 
+		  	    "description": "Add shebang to script" 
+		  	},
+
+// Colour Snippets
+
+ "Purple": {
+		"scope": "sh",
+        "prefix": "purple",
+        "body": [
+        "echo -e \"\\e[35mTEXT\\e[0m\"",
+        ],
+        "description": "Add colour purple"
+},
+
+"Cyan": {
+	"scope": "sh",
+	"prefix": "cyan",
+	"body": [
+	"echo -e \"\\e[36mTEXT\\e[0m\"",
+	],
+	"description": "Add colour cyan"
+},
+
+"Grey": {
+	"scope": "sh",
+	"prefix": "grey",
+	"body": [
+	"echo -e \"\\e[37mTEXT\\e[0m\"",
+	],
+	"description": "Add colour grey"
+},
+
+"Green Background": {
+	"scope": "sh",
+	"prefix": "greenb",
+	"body": [
+	"echo -e \"\\e[42mTEXT\\e[0m\"",
+	],
+	"description": "Add green background"
+},
+
+"Black": {
+	"scope": "sh",
+    "prefix": "black",
+    "body": [
+	"echo -e \"\\e[30mTEXT\\e[0m\"",
+    ],
+    "description": "Add colour black"
+},
+
+"Blue": {
+	"scope": "sh",
+	"prefix": "blue",
+	"body": [
+	"echo -e \"\\e[34mTEXT\\e[0m\"",
+	],
+	"description": "Add colour blue"
+},
+
+"Green": {
+	"scope": "sh",
+	"prefix": "green",
+	"body": [
+	"echo -e \"\\e[32mTEXT\\e[0m\"",
+	],
+	"description": "Add colour green"
+},
+
+"Red": {
+	"scope": "sh",
+	"prefix": "red",
+	"body": [
+	"echo -e \"\\e[31mTEXT\\e[0m\"",
+	],
+	"description": "Add colour red"
+},
+
+// For DO
+
+"For Loop": {
+    "prefix": "forloop",
+    "body": [
+        "for (var ${index} = 0; ${index} < ${array}.length; ${index}++) {",
+        "\tvar ${element} = ${array}[${index}];",
+        "\t$0",
+        "}"
+    ],
+    "description": "For Loop"
+},
+
+}
